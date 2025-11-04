@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de Gorjeta</title>
+</head>
+
+<body>
+
+    <div class="principal">
+        <header>
+            <h1 id="title">Calculadora de Gorjetas</h1>
+        </header>
+        <main>
+            <p id="sub-title">Insira o valor da conta e a porcentagem da gorjeta para calcular o total</p>
+
+            <form class="form">
+                <label for="" class="text">Valor da Conta</label>
+                <input type="number" class="input-value" id="input-amount" placeholder="250">
+                <label for="" class="text">% Gorjeta</label>
+                <input type="number" class="input-value" id="input-tip" placeholder="5%">
+            </form>
+
+            <button id="calculate">Calcular</button>
+        </main>
+
+        <footer>
+            <p>Valor total:</p>
+            <p id="result">--</p>
+        </footer>
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
